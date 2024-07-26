@@ -1,26 +1,45 @@
 import React from 'react';
-import styles from '../styles/Header.module.css'; // Assurez-vous d'importer correctement les styles CSS modules
-import { ReactComponent as GithubIcon } from '../assets/github.svg'; // Importez l'icône GitHub depuis votre fichier SVG
-import { ReactComponent as LinkedInIcon } from '../assets/linkedin.svg'; // Importez l'icône LinkedIn depuis votre fichier SVG
+import styles from '../styles/Header.module.css';
+import { ReactComponent as HomeIcon } from '../assets/home.svg';
+import { ReactComponent as SkillsIcon } from '../assets/skills.svg';
+import { ReactComponent as ProjectsIcon } from '../assets/projects.svg';
+import { ReactComponent as GithubIcon } from '../assets/github.svg';
+import { ReactComponent as LinkedinIcon } from '../assets/linkedin.svg';
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <nav className={styles.navbar}>
+      <nav>
         <ul className={styles.navList}>
-          <li><a href="#features">A propos</a></li>
-          <li><a href="#about">Compétences</a></li>
-          <li><a href="#contact">Projets</a></li>
+          <li>
+            <a href="#home">
+              <HomeIcon className={styles.icon} />
+            </a>
+          </li>
+          <li>
+            <a href="#skills">
+              <SkillsIcon className={styles.icon} />
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <ProjectsIcon className={styles.icon} />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/in/laetitiabeles">
+              <LinkedinIcon className={styles.icon} />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.github.com/laetitiabeles">
+              <GithubIcon className={styles.icon} />
+            </a>
+          </li>
         </ul>
       </nav>
-      <a href="https://www.linkedin.com/in/laetitiabeles" target="_blank" rel="noopener noreferrer">
-              <LinkedInIcon className={styles.icon} />
-            </a>
-            <a href="https://github.com/laetitiabeles" target="_blank" rel="noopener noreferrer">
-              <GithubIcon className={styles.icon} />
-      </a>
     </header>
   );
-};
+}
 
 export default Header;
