@@ -1,19 +1,24 @@
 import React from 'react';
-import Header from './components/Header';
 import Welcome from './components/WelcomeSection';
-import Presentation from './components/Presentation';
+import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Header from './components/Header';
+import './App.css';
+import './styles/satoshi.css';
+import './fonts.css';
 
 const App = () => {
   return (
     <div className="app">
       <Header />
-      <Welcome />
-      <Presentation />
-      <Skills />
-      <Projects />
+      <div className="content">
+        <Welcome />
+        <About />
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
     </div>
   );
