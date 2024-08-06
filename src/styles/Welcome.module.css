@@ -1,14 +1,47 @@
+/* src/styles/Welcome.module.css */
+
 .welcomeSection {
-    display: flex;
-  }
-  
-  .left {
-    flex: 1;
-    background-image: linear-gradient(90deg, rgba(62,147,252,0.57) 0%, rgba(239,183,192,0.44) 100%);
-  }
-  
-  .right {
-    flex: 1;
-    padding: 20px; /* Ajustement optionnel pour l'espacement */
-  }
-  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-image: linear-gradient(90deg, rgba(159,193,249,1) 0%, rgba(239,183,192,0.44) 100%);
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 90%;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 30%;
+}
+
+.WelcomeImage {
+  width: 85%;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.subtitle {
+  font-size: 28px;
+}
+
+.description {
+  font-size: 19px;
+}
