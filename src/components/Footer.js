@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       {/* Contenu du footer */}
-      <p>© 2024 Mon Portfolio</p>
+      <p>© 2024 Laëtitia Bélès</p>
     </footer>
   );
 };
