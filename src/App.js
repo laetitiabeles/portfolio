@@ -4,20 +4,18 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import DotNav from './components/DotNav';
 import './App.css';
-import './styles/satoshi.css';
-import './fonts.css';
 
 const App = () => {
   return (
     <div className="app">
-      <Header />
       <div className="content">
         <Welcome />
         <About />
         <Skills />
         <Projects />
+        <DotNav />
       </div>
       <Footer />
     </div>
