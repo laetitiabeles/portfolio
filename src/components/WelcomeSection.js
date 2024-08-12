@@ -24,14 +24,15 @@ const Welcome = () => {
               <h3 className={styles.apprenticeshipDescription}>Lille</h3>
             </div>
             <div className={styles.apprenticeshipColumn}>
-              <h2 className={styles.apprenticeshipSubtitle}>Rythme?</h2>
+              <h2 className={styles.apprenticeshipSubtitle}>Apprenticeship rhythm?</h2>
               <h3 className={styles.apprenticeshipDescription}>3 weeks at work</h3>
               <h3 className={styles.apprenticeshipDescription}>1 week at school</h3>
             </div>
           </div>
-          <button className={styles.resumeButton}>Resume</button>
-          <button className={styles.resumeButton}>Github</button>
-          <button className={styles.resumeButton}>LinkedIn</button>
+          <a href="https://drive.google.com/file/d/1WO_iPdjIRPvh7DHOIb5W2h0btHkatokR/view?usp=sharing" className={styles.resumeButton} target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href="https://github.com/laetitiabeles" className={styles.resumeButton} target="_blank" rel="noopener noreferrer">Github</a>
+          <a href="https://linkedin.com/in/laetitiabeles" className={styles.resumeButton} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
         </div>
         <div className={styles.imageContainer}>
           <img src={WelcomeImage} alt="Bienvenue" className={styles.WelcomeImage} />
