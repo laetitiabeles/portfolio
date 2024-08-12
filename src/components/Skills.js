@@ -12,6 +12,8 @@ import BashLogo from '../assets/bash.svg';
 import NodeLogo from '../assets/nodejs.svg';
 import WordPressLogo from '../assets/wordpress.svg';
 import GitLogo from '../assets/git.svg';
+import PhotoshopLogo from '../assets/photoshop.svg';
+import FigmaLogo from '../assets/figma.svg';
 
 const Skills = () => {
   return (
@@ -22,9 +24,12 @@ const Skills = () => {
           <div className={styles.skillsCategory}>
             <h3 className={styles.skillsTitle}>Soft Skills</h3>
             <ul className={styles.skillsList}>
-              <li>Compétence 1</li>
-              <li>Compétence 2</li>
-              <li>Compétence 3</li>
+              <li>Communication</li>
+              <li>Learning culture</li>
+              <li>Team Spirit</li>
+              <li>Problem solving</li>
+              <li>Analytical thinking</li>
+              <li>Patience</li>
             </ul>
           </div>
           <div className={styles.skillsCategory}>
@@ -40,6 +45,8 @@ const Skills = () => {
               <img src={NodeLogo} alt="Node.js" className={styles.logo} />
               <img src={WordPressLogo} alt="WordPress" className={styles.logo} />
               <img src={GitLogo} alt="Git" className={styles.logo} />
+              <img src={PhotoshopLogo} alt="Photoshop" className={styles.logo} />
+              <img src={FigmaLogo} alt="Figma" className={styles.logo} />
             </div>
           </div>
         </div>
