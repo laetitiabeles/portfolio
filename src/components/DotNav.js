@@ -16,7 +16,7 @@ const DotNav = () => {
           }
         });
       },
-      { threshold: 0.7 } // Change de point si 70% de la section est visible
+      { threshold: 0.5 } // Change de point si 70% de la section est visible
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -40,6 +40,9 @@ const DotNav = () => {
         </li>
         <li className={styles.dotItem}>
           <a href="#projects" className={styles.dotLink}></a>
+        </li>
+        <li className={styles.dotItem}>
+          <a href="#contact" className={styles.dotLink}></a>
         </li>
       </ul>
     </nav>
