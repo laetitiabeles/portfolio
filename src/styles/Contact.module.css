@@ -42,5 +42,7 @@
   
   .contactButton:hover {
     background-color: #AACDA2;
+    border: 2px solid #AACDA2;
+    color: white;
   }
   
