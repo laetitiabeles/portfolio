@@ -50,7 +50,7 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
   font-weight: 700;
@@ -59,7 +59,7 @@
 
 .skillsTitle {
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: Poppins, sans-serif;
   font-weight: 700;
   text-align: left;
@@ -83,11 +83,12 @@
   list-style-type: none;
   padding: 0;
   font-family: Poppins, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .toolsList li,
 .knowledgesList li {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
