@@ -17,23 +17,12 @@ import FigmaLogo from '../assets/figma.svg';
 
 const Skills = () => {
   return (
-    <section className={styles.skillsSection}>
+    <section id="skills" className={styles.skillsSection}>
       <div className={styles.content}>
         <h2 className={styles.title}>Skills</h2>
         <div className={styles.skillsContainer}>
-          <div className={styles.skillsCategory}>
-            <h3 className={styles.skillsTitle}>Soft Skills</h3>
-            <ul className={styles.skillsList}>
-              <li>Communication</li>
-              <li>Learning culture</li>
-              <li>Team Spirit</li>
-              <li>Problem solving</li>
-              <li>Analytical thinking</li>
-              <li>Patience</li>
-            </ul>
-          </div>
-          <div className={styles.skillsCategory}>
-            <h3 className={styles.skillsTitle}>Hard Skills</h3>
+          <div className={styles.developmentCategory}>
+            <h3 className={styles.skillsTitle}>Development</h3>
             <div className={styles.logoGrid}>
               <img src={CLogo} alt="C" className={styles.logo} />
               <img src={JSLogo} alt="JavaScript" className={styles.logo} />
@@ -45,10 +34,38 @@ const Skills = () => {
               <img src={NodeLogo} alt="Node.js" className={styles.logo} />
               <img src={WordPressLogo} alt="WordPress" className={styles.logo} />
               <img src={GitLogo} alt="Git" className={styles.logo} />
-              <img src={PhotoshopLogo} alt="Photoshop" className={styles.logo} />
-              <img src={FigmaLogo} alt="Figma" className={styles.logo} />
             </div>
           </div>
+          <div>
+            <div className={styles.designCategory}>
+              <h3 className={styles.skillsTitle}>Design</h3>
+              <div className={styles.logoGrid}>
+                <img src={PhotoshopLogo} alt="Photoshop" className={styles.logo} />
+                <img src={FigmaLogo} alt="Figma" className={styles.logo} />
+              </div>
+            </div>
+            <div className={styles.tools}>
+              <h3 className={styles.skillsTitle}>Tools</h3>
+              <div className={styles.toolsList}>
+                <ul>
+                  <li>Git / GitHub</li>
+                  <li>Command lines</li>
+                  <li>MySQL Workbench</li>
+                  <li>Chrome/Safari DevTools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className={styles.knowledges}>
+              <h3 className={styles.skillsTitle}>Knowledges</h3>
+              <div className={styles.knowledgesList}>
+                <ul>
+                  <li>SEO</li>
+                  <li>Accessibility</li>
+                  <li>TDD</li>
+                </ul>
+              </div>
+            </div>
         </div>
       </div>
     </section>
