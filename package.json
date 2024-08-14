@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://laetitiabeles.github.io/portfolio-landing-page",
+  "homepage": "https://laetitiabeles.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
