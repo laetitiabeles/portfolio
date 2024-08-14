@@ -16,7 +16,7 @@ const DotNav = () => {
           }
         });
       },
-      { threshold: 0.5 } // Change de point si 70% de la section est visible
+      { threshold: 0.5 } // Change de point si 50% de la section est visible
     );
 
     sections.forEach((section) => observer.observe(section));
