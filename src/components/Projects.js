@@ -53,12 +53,13 @@ const Projects = () => {
                 </h3>
               </div>
               <p className={styles.projectDescription}>
-              Kassoum is a design mockup created for a client, showcasing a sustainable solution for the collection of organic waste. The service is tailored for professionals, offering eco-friendly and socially responsible waste management.
+              Kassoum is a design mockup created and will be soon a landing page for a client, showcasing a sustainable solution for the collection of organic waste. The service is tailored for professionals, offering eco-friendly and socially responsible waste management.
               </p>
               <div className={styles.tags}>
                 <span className={styles.tag}>React</span>
                 <span className={styles.tag}>HTML</span>
                 <span className={styles.tag}>CSS</span>
+                <span className={styles.tag}>Figma</span>
               </div>
             </div>
           </div>
