@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "add": "^2.0.6",
     "dock": "^0.1.4",
+    "gh-pages": "^6.1.1",
     "lucide-react": "^0.416.0",
     "magicui-cli": "^0.1.6",
     "react": "^18.3.1",
