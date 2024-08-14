@@ -60,7 +60,8 @@
 }
 
 .resumeButton:hover {
-  background-color: #333;
+  background-color: #AACDA2;
+  border: 1px solid #AACDA2;
   color: white;
 }
 
