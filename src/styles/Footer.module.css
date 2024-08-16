@@ -18,7 +18,7 @@
   
   .socialIcons {
     display: flex;
-    justify-content: flex-end; /* Aligns the icons to the right */
+    justify-content: flex-end;
     margin-right: 40px;
   }
   

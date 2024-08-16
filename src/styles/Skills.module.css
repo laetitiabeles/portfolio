@@ -1,5 +1,3 @@
-/* src/styles/Skills.module.css */
-
 .skillsSection {
   padding-top: 30px;
   padding-bottom: 50px;
@@ -10,47 +8,44 @@
 
 .content {
   width: 100%;
+  padding: 0 20px;
 }
 
 .skillsContainer {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 40px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .developmentCategory {
-  flex: 0;
-  margin-left: 200px;
-  min-width: 350px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 100%;
   text-align: left;
-  margin-right: 100px;
+  margin-right: 20px;
 }
 
 .designToolsContainer {
   display: flex;
   flex-direction: column;
-  min-width: 350px;
-}
-
-.designCategory {
-  text-align: left;
+  margin: 20px;
+  min-width: 280px;
+  max-width: 100%;
 }
 
 .tools {
   margin-top: 40px;
-  text-align: left;
 }
 
 .knowledges {
   flex: 1;
-  margin-top: 0;
-  margin-left: 120px;
-  min-width: 350px;
-  text-align: left;
+  min-width: 280px;
+  max-width: 100%;
 }
 
 .title {
-  font-size: 45px;
+  font-size: 36px;
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
   font-weight: 700;
@@ -62,7 +57,7 @@
   margin-bottom: 30px;
   font-family: Poppins, sans-serif;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
 }
 
 .logoGrid {
@@ -85,10 +80,99 @@
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
 }
 
 .toolsList li,
 .knowledgesList li {
   margin-bottom: 10px;
   font-size: 16px;
+}
+
+@media (min-width: 570px) and (max-width: 759px) {
+  .toolsList ul,
+  .knowledgesList ul {
+    text-align: left;
+  }
+
+  .toolsList li,
+  .knowledgesList li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .skillsContainer {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .developmentCategory, 
+  .designToolsContainer,
+  .knowledges {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .skillsTitle {
+    font-size: 20px;
+  }
+
+  @media (min-width: 570px) and (max-width: 759px) {
+    .skillsTitle {
+      text-align: left;
+    }
+  }
+
+  .logoGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 759px) {
+  .developmentCategory, 
+  .designToolsContainer,
+  .knowledges {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+@media (min-width: 769px) {
+  .skillsContainer {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  .developmentCategory,
+  .designToolsContainer,
+  .knowledges {
+    margin: 0 20px;
+    max-width: calc(40% - 100px);
+  }
+
+  .logoGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
 }

@@ -112,7 +112,7 @@ const Projects = () => {
                 </div>
               </div>
               <p className={styles.projectDescription}>
-              I rebuilt the standard printf function from scratch. 
+              I rebuilt the standard printf function from scratch. It was a collaborative project we did during one week.
               </p>
               <div className={styles.tags}>
                 <span className={styles.tag}>C</span>
