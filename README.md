@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<p align="center">
+    <h1 align="center">LAETITIA'S PORTFOLIO</h1>
+</p>
+<p align="center">
+    <em>See more about me</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/laetitiabeles/portfolio?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/laetitiabeles/portfolio?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/laetitiabeles/portfolio?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/laetitiabeles/portfolio?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/React-20232A.svg?style=flat&logo=React&logoColor=61DAFB" alt="React">
+	<img src="https://img.shields.io/badge/HTML-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML">
+	<img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+##  Quick Links
 
-In the project directory, you can run:
+> - [ Preview](#-preview)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running portfolio ](#-running-portfolio)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+<img src="https://i.ibb.co/TPMp561/Capture-d-cran-2024-08-21-21-14-44.png" alt="preview" border="0" width="100%">
+</p>
 
-### `npm test`
+--- 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Getting Started
 
-### `npm run build`
+***Requirements***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ensure you have the following dependencies installed on your system:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **React**: `version 18.3.1`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###  Installation
 
-### `npm run eject`
+1. Clone the portfolio repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone https://github.com/laetitiabeles/portfolio
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+cd portfolio
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the dependencies:
 
-## Learn More
+```sh
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###  Running portfolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use the following command to run portfolio:
 
-### Code Splitting
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open http://localhost:3000 to view it in your browser.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
