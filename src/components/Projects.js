@@ -94,7 +94,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <h3 className={styles.sectionTitle}>Back-end projects</h3>
+          <h3 className={styles.sectionTitle}>Low-level projects</h3>
           <div className={styles.projectCard}>
             <img src={Printf} alt="Printf" className={styles.projectImage} />
             <div className={styles.projectText}>
